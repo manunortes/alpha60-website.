@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #000;
+  color: #fff;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: #e3e3e3;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.shop-btn {
+  padding: 10px 30px;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.products {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 220px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 60px;
+}
